@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Design/Data Structures/1. Arrays - Arreglos.md",
+                "file": "Software Design/Data Structures/3. Stacks - Pilas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Design/Data Structures/1. Arrays - Arreglos.md",
+                "file": "Software Design/Data Structures/3. Stacks - Pilas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Design/Data Structures/1. Arrays - Arreglos.md",
+                "file": "Software Design/Data Structures/3. Stacks - Pilas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Design/Data Structures/1. Arrays - Arreglos.md"
+                "file": "Software Design/Data Structures/3. Stacks - Pilas.md"
               }
             }
           }
@@ -149,30 +149,30 @@
   },
   "active": "2c88af11cd5540bc",
   "lastOpenFiles": [
+    "Software Design/Data Structures/4. Queues- Colas.md",
+    "Software Design/OOP/OOP.md",
     "Software Design/OOP/Inheritance - Herencia.md",
+    "Software Design/OOP/Polymorphism - Polimorfismo.md",
+    "Software Design/OOP/Encapsulation - encapsulamiento.md",
     "Software Design/OOP/Abstraction - Abstraccion.md",
     "Software Design/SOLID/SOLID.md",
+    "Software Design/SOLID/3) LSP - Liskov Substitution Principle.md",
     "Software Design/SOLID/5) DIP - Dependency Inversion Principle.md",
     "Software Design/SOLID/4) ISP - Interface Segregation Principle.md",
-    "Software Design/SOLID/3) LSP - Liskov Substitution Principle.md",
     "Software Design/SOLID/2) OCP - Open Closed Principle.md",
     "Software Design/SOLID/1) SRP - Single Responsibility Principle.md",
-    "Software Design/SOLID",
-    "Software Design/OOP/Polymorphism - Polimorfismo.md",
-    "Software Design/OOP/OOP.md",
-    "Software Design/OOP/Encapsulation - encapsulamiento.md",
-    "Software Design/OOP",
-    "Software Design/Data Structures/Data Structures.md",
+    "Software Design/Data Structures/3. Stacks - Pilas.md",
+    "Software Design/Data Structures/1. Arrays - Arreglos.md",
+    "Software Design/Data Structures/2. Linked Lists - Listas Enlazadas.md",
+    "Software Design/Data Structures/10. Sets - Conjuntos.md",
     "Software Design/Data Structures/9. Tries - árbol de prefijos.md",
     "Software Design/Data Structures/8. Graphs - Grafos.md",
     "Software Design/Data Structures/7. Heaps - Montículos.md",
     "Software Design/Data Structures/6. Trees - Árboles.md",
     "Software Design/Data Structures/5. Hash Tables - Tablas de Hash.md",
-    "Software Design/Data Structures/4. Queues- Colas.md",
-    "Software Design/Data Structures/3. Stacks - Pilas.md",
-    "Software Design/Data Structures/2. Linked Lists - Listas Enlazadas.md",
-    "Software Design/Data Structures/10. Sets - Conjuntos.md",
-    "Software Design/Data Structures/1. Arrays - Arreglos.md",
+    "Software Design/SOLID",
+    "Software Design/OOP",
+    "Software Design/Data Structures/Data Structures.md",
     "Software Design/Data Structures",
     "Software Design"
   ]

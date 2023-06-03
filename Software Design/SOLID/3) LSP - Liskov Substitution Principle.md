@@ -148,7 +148,7 @@ Adhering to the Liskov Substitution Principle ensures that derived classes are t
 
 **El Principio de Sustitución de Liskov (LSP)**
 
-El Principio de Sustitución de Liskov establece que los objetos de una superclase deben poder ser reemplazados por objetos de sus subclases sin afectar la corrección del programa. En otras palabras, si la clase A es una subclase de la clase B, entonces las instancias de la clase B deben poder ser sustituidas por instancias de la clase A sin alterar el comportamiento esperado del programa.
+El Principio de Sustitución de Liskov establece que los objetos de una superclase deben poder ser reemplazados por objetos de sus subclases sin afectar el correcto funcionamiento del programa. En otras palabras, si la clase A es una subclase de la clase B, entonces las instancias de la clase B deben poder ser sustituidas por instancias de la clase A sin alterar el comportamiento esperado del programa.
 
 Este principio se basa en el concepto de que las clases derivadas deben ser completamente sustituibles por sus clases base, sin introducir errores o comportamientos inesperados. Garantiza que el código que utiliza objetos de la clase base funcione correctamente cuando se utilizan instancias de las clases derivadas.
 
