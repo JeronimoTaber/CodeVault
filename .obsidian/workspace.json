@@ -149,9 +149,16 @@
   },
   "active": "2c88af11cd5540bc",
   "lastOpenFiles": [
-    "Security/SSH/Example.md",
-    "Software Design/OOP/Encapsulation - encapsulamiento.md",
+    "Security/SSH/Public Key SSH Connection.md",
     "Security/SSH/SSH.md",
+    "Security/SSH/Basic Example.md",
+    "Security/SSH/Autentication.md",
+    "Security/Encription/Untitled",
+    "Security/Encription/Untitled.md",
+    "Security/Encription/Asymmetric Encryption",
+    "Security/Encription/Symmetric Encryption",
+    "Security/Encription",
+    "Software Design/OOP/Encapsulation - encapsulamiento.md",
     "CodeVault.md",
     "Security/Untitled.md",
     "Software Design/OOP/Abstraction - Abstraccion.md",
@@ -175,12 +182,8 @@
     "Software Design/Data Structures/1. Arrays - Arreglos.md",
     "Software Design/Data Structures/2. Linked Lists - Listas Enlazadas.md",
     "Software Design/Data Structures/9. Tries - árbol de prefijos.md",
-    "Software Design/Data Structures/8. Graphs - Grafos.md",
-    "Software Design/Data Structures/7. Heaps - Montículos.md",
-    "Software Design/Data Structures/6. Trees - Árboles.md",
     "Software Design/SOLID",
     "Software Design/OOP",
-    "Software Design/Data Structures",
-    "Software Design"
+    "Software Design/Data Structures"
   ]
 }

@@ -7,6 +7,9 @@ SSH (Secure Shell) is a secure network protocol used to establish encrypted and 
 
 The SSH protocol utilizes asymmetric cryptography techniques to authenticate and encrypt communication between the client and the server. This means that both the client and the server have a public key and a private key. The public key is shared with the remote server, while the private key is kept secret on the client. During the authentication process, the server verifies the client's identity using the corresponding public key. Once the connection is established, symmetric encryption is used to protect the confidentiality of the transmitted data.
 
+### Examples
+[[Basic Example]]
+
 ### Advantages of SSH 
 
 - **Security:** SSH employs robust encryption techniques to protect communication against eavesdropping and data manipulation attacks. This ensures that transmitted information, such as passwords and sensitive data, is safeguarded against unauthorized access.
@@ -33,6 +36,18 @@ The SSH protocol utilizes asymmetric cryptography techniques to authenticate and
 
 By combining asymmetric encryption for authentication and symmetric encryption for data transmission, SSH provides secure and encrypted communication between the client and the server. This prevents eavesdropping, data tampering, and unauthorized access to sensitive information during SSH sessions.
 
+### SSH Autentication:
+
+SSH supports multiple modes of authentication to verify the identities of clients and servers. These authentication methods provide an additional layer of security compared to traditional password-based authentication. The following are some commonly used modes of SSH authentication:
+
+1. **Password Authentication**: Password authentication is a simple method where clients provide a password to authenticate themselves. The password is encrypted and sent over the network to the server for verification. While password authentication is widely supported, it is generally considered less secure compared to public key authentication. It is susceptible to brute-force attacks and password interception.
+    
+2. **Public Key Authentication**: Public key authentication is the primary and recommended method for SSH authentication. It involves generating a key pair on the client-side: a public key and a private key. The public key is stored on the server, while the private key is securely kept on the client. During authentication, the client proves its identity by signing a challenge sent by the server using the private key. The server then verifies the signature using the corresponding public key. If the signature is valid, the client is authenticated and granted access. [[Public Key SSH Connection]]
+
+It is important to note that the availability and configuration of authentication methods may vary depending on the SSH server implementation and its configuration. The server administrator determines which authentication methods are allowed and their order of preference.
+
+Using strong authentication methods, such as public key authentication, combined with proper security practices, helps enhance the security of SSH connections and protects against unauthorized access.
+
 # SPANISH
 ## SSH (Secure Shell)
 
@@ -41,6 +56,9 @@ By combining asymmetric encryption for authentication and symmetric encryption f
 SSH (Secure Shell) es un protocolo de red seguro utilizado para establecer conexiones seguras y cifradas a través de una red no segura. Proporciona un mecanismo para acceder y controlar de forma remota sistemas y servidores de manera segura, evitando así la exposición de información confidencial y garantizando la integridad de los datos transmitidos.
 
 El protocolo SSH utiliza técnicas de criptografía asimétrica para autenticar y cifrar la comunicación entre el cliente y el servidor. Esto significa que tanto el cliente como el servidor tienen una clave pública y una clave privada. La clave pública se comparte con el servidor remoto, mientras que la clave privada se mantiene en secreto en el cliente. Durante el proceso de autenticación, el servidor verifica la identidad del cliente utilizando la clave pública correspondiente. Una vez que se establece la conexión, se utiliza cifrado simétrico para proteger la confidencialidad de los datos transmitidos.
+
+### Ejemplos
+[[Basic Example]]
 
 ### Ventajas de SSH
 
@@ -66,3 +84,15 @@ El protocolo SSH utiliza técnicas de criptografía asimétrica para autenticar 
 **5. Intercambio de claves Diffie-Hellman:** SSH también admite el intercambio de claves de Diffie-Hellman, que permite que el cliente y el servidor generen de forma independiente una clave secreta compartida a través de un canal inseguro sin intercambiar la clave directamente. Esto asegura que incluso si un atacante intercepta la comunicación, no pueda deducir la clave secreta compartida.
 
 Al combinar el cifrado asimétrico para la autenticación y el cifrado simétrico para la transmisión de datos, SSH proporciona una comunicación segura y cifrada entre el cliente y el servidor. Esto evita el espionaje, la manipulación de datos y el acceso no autorizado a información confidencial durante las sesiones de SSH.
+
+### Autenticación SSH
+
+SSH (Secure Shell) admite varios modos de autenticación para verificar las identidades de los clientes y los servidores. Estos métodos de autenticación proporcionan una capa adicional de seguridad en comparación con la autenticación tradicional basada en contraseñas. A continuación, se presentan algunos modos de autenticación SSH comúnmente utilizados:
+
+1. **Autenticación de clave pública**: La autenticación de clave pública es el método principal y recomendado para la autenticación SSH. Implica generar un par de claves en el cliente: una clave pública y una clave privada. La clave pública se almacena en el servidor, mientras que la clave privada se guarda de forma segura en el cliente. Durante la autenticación, el cliente demuestra su identidad firmando un desafío enviado por el servidor utilizando la clave privada. Luego, el servidor verifica la firma utilizando la clave pública correspondiente. Si la firma es válida, el cliente se autentica y se le concede acceso.
+    
+2. **Autenticación de contraseña**: La autenticación de contraseña es un método simple en el que los clientes proporcionan una contraseña para autenticarse. La contraseña se encripta y se envía por la red al servidor para su verificación. Si bien la autenticación de contraseña es ampliamente compatible, generalmente se considera menos segura en comparación con la autenticación de clave pública. Es susceptible a ataques de fuerza bruta e intercepción de contraseñas.[[Public Key SSH Connection]]
+
+Es importante tener en cuenta que la disponibilidad y configuración de los métodos de autenticación pueden variar según la implementación del servidor SSH y su configuración. El administrador del servidor determina qué métodos de autenticación se permiten y su orden de preferencia.
+
+Utilizar métodos de autenticación sólidos, como la autenticación de clave pública, combinados con prácticas de seguridad adecuadas, ayuda a mejorar la seguridad de las conexiones SSH y protege contra el acceso no autorizado.
